@@ -1,8 +1,7 @@
 import axios from 'axios'
 import Iresponse from '@/interfaces/Iresponse'
 
-const API_URL = 'https://tvscheduleAPI--marcinpotrykus.repl.co/v2/'
-
+const API_URL = process.env.VUE_APP_API_URL
 
 class ScheduleTVService {
 
@@ -20,7 +19,7 @@ class ScheduleTVService {
       }
     })
 
-    if (res.status != 200 || res.data) await this.getDataFromAPI()
+    // if (res.status != 200 || res.data) await this.getDataFromAPI()
 
     return res.data as Iresponse
   }
