@@ -63,7 +63,7 @@ h3 {
   h3 {
     text-align: center;
     vertical-align: middle;
-    /* animation: 8s slide-right infinite; */
+    animation: 8s slide-right infinite;
     margin: auto;
     display: flex;
     justify-items: center;

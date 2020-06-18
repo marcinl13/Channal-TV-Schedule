@@ -23,7 +23,7 @@ import { Component, Vue } from "vue-property-decorator";
 import Home from "./pages/Home.vue";
 import Details from "./pages/Details.vue";
 
-import Loading from "./components/error.vue";
+import Loading from "./components/Loader.vue";
 
 import ScheduleTVService from "../src/ts/ScheduleTVService";
 import Ichannals from "@/interfaces/Ichannals";

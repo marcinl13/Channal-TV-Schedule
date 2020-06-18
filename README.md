@@ -22,3 +22,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+###Patch Notes
+
+    add module getLocaleDataString
+    add function getLocaleDataString, validDate
+    improved loader
+    removed unused code in ScheduleTVService
+    added slide animation to now playing in mobile view
