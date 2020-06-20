@@ -23,7 +23,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-###Patch Notes
+### Patch Notes
 
     add module getLocaleDataString
     add function getLocaleDataString, validDate
