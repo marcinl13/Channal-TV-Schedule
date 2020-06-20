@@ -30,3 +30,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     improved loader
     removed unused code in ScheduleTVService
     added slide animation to now playing in mobile view
+    added setTimeout in receiving API data

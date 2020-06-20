@@ -20,7 +20,15 @@ class ScheduleTVService {
       }
     })
 
-    // if (res.status != 200 || res.data) await this.getDataFromAPI()
+    const timeout = 500;
+
+    if (res.data?.createdAt == getLocaleDateString()) {
+      return res.data as Iresponse
+    }
+
+    if (res.status != 200 || res.data) setTimeout(() => {
+      this.getDataFromAPI()
+    }, timeout);
 
     return res.data as Iresponse
   }
